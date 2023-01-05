@@ -28,3 +28,7 @@ The server listens for HTTP requests and serves the index.html and sketch.js fil
 The socket connection is used to stream data from the Emotiv device to the client. The serial connection is used to receive data from the Emotiv device and emit it over the socket connection. The data is received and processed on the client side using p5.js and ml5.js to control the visual display of the video feed.
 
 The preload() function loads the ml5.js body segmentation model, and the setup() function sets up the canvas, video capture, and event listeners. The draw() function is called repeatedly by p5.js and ml5.js to control the visual display of the video feed.
+
+Demo without Emotiv: 
+[Unfocused State of Mind](https://ameliagan.xyz/5.html)
+[Focused State of Mind](https://ameliagan.xyz/3.html)
