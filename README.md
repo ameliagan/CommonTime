@@ -8,10 +8,7 @@ Using p5.js and node.js, The app.js file sets up a server and a socket connectio
 ## Requirements
 To run this application, you will need the following:
 
-A computer with node.js and npm installed
-An Emotiv device and the necessary cables to connect it to the computer
-A webcam
-A screen
+A computer with node.js and npm installed,an Emotiv device, a webcam.
 
 ## Installation
 Clone or download the repository to your local machine.
