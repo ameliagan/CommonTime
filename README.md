@@ -1,5 +1,5 @@
 # CommonTime
-Syncing time perception through BCI and AR
+Syncing time perception through BCI and AR.
 
 This application uses the Emotiv device to synchronize the perception of time between two users through augmented reality (AR). The Emotiv device is able to detect and interpret brain signals, and this application uses machine learning techniques to analyze these signals and control the visual display of a video feed from the user's camera. The ml5.js library's body segmentation model is used to keep the person in focus or out of focus depending on the wearer's mental state, and the opposite user is made in focus or out of focus accordingly. This creates an immersive AR experience where the two users' perceptions of time are interconnected.
 
