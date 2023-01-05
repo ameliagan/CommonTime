@@ -30,5 +30,7 @@ The socket connection is used to stream data from the Emotiv device to the clien
 The preload() function loads the ml5.js body segmentation model, and the setup() function sets up the canvas, video capture, and event listeners. The draw() function is called repeatedly by p5.js and ml5.js to control the visual display of the video feed.
 
 Demo without Emotiv: 
+
 [Unfocused State of Mind](https://ameliagan.xyz/5.html)
+
 [Focused State of Mind](https://ameliagan.xyz/3.html)
