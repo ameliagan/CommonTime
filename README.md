@@ -5,6 +5,8 @@ This application uses the Emotiv device to synchronize the perception of time be
 
 Using p5.js and node.js, The app.js file sets up a server and a socket connection to stream data from the Emotiv device to the client, where it is used to control the visual display of a video feed from the user's webcam. The sketch.js file contains the p5.js code that runs the client-side visualization, using the ml5.js library for body segmentation and the socket connection to receive data from the Emotiv device.
 
+<img src="https://user-images.githubusercontent.com/121802839/210760556-39b7c78e-9cb8-44af-a977-8807d455b911.jpg" width="300">
+
 ## Requirements
 To run this application, you will need the following:
 
@@ -29,8 +31,12 @@ The socket connection is used to stream data from the Emotiv device to the clien
 
 The preload() function loads the ml5.js body segmentation model, and the setup() function sets up the canvas, video capture, and event listeners. The draw() function is called repeatedly by p5.js and ml5.js to control the visual display of the video feed.
 
-Demo without Emotiv: 
+## Demo without Emotiv: 
 
 [Unfocused State of Mind](https://ameliagan.xyz/5.html)
 
 [Focused State of Mind](https://ameliagan.xyz/3.html)
+
+## More Info 
+[Common Time](https://ameliagan.com/responsive-environment)
+
