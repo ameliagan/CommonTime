@@ -1,0 +1,11 @@
+{
+    "name": "basic-socket",
+    "version": "0.0.1",
+    "description": "HTML to node using socket.io",
+    "dependencies": {
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15",
+        "serialport": "9.0.1",
+        "socket.io": "^2.0.4"
+    }
+}
